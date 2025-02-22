@@ -18,7 +18,7 @@ startStopButton.addEventListener("click", () => {
   } else {
     startTime = Date.now() - elapsedTime;
     timer = setInterval(updateDisplay, 10);
-    startStopButton.textContent = "Stop";
+    startStopButton.textContent = "Pause";
   }
   isRunning = !isRunning;
 });
